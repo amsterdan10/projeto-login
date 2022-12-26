@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+/* Tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    
+    body {
+        background: url(../img/back-login-natal.jpg) no-repeat right center;
+        background-size: cover;
+    }
+
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#image {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 70%;
+    }
+
+    div#formulario > h1 {
+        font-size: 1.7em;
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+    }
+}
+
+/* Desktop and TV */
+
+@media screen and (min-width: 992px) {
+    
+    body {
+        background: url(../img/back-login-natal.jpg) no-repeat right center;
+        background-size: cover;
+    }
+
+    section#login {
+        width: 950px;
+    }
+
+    section#login > div#image {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right;
+        width: 50%;
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+}
