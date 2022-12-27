@@ -96,6 +96,7 @@ div.campo > input {
     height: 90%;
     border-radius: 7px;
     padding: 4px;
+    outline: none;
 }
 
 form > input[type=submit] {
@@ -135,7 +136,7 @@ form > a.button > span {
 
 form > a.button:hover {
     color: #F20505;
-    border-color: #F20505;
+    border: 3px solid #F20505;
 }
 
 
